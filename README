@@ -1,3 +1,6 @@
+sn74hc595n shift register demo
+
+
 Requirements
 
 Java 1.8
@@ -12,9 +15,10 @@ gradle shadowjar
 
 
 SCP this file to your raspberry pi.   Then run
-
+--
 sudo java -jar test_shift-all.jar
 
 
--- This uses http://pi4j.com/ code and uses its pin layout.    When you startup the program it lists which pins ins using and what the correspond to.
+
+This uses http://pi4j.com/ code and uses its pin layout.    When you startup the program it lists which pins ins using and what the correspond to.
 
