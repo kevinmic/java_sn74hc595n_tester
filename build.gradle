@@ -1,0 +1,22 @@
+plugins {
+   id 'com.github.johnrengelman.shadow' version '1.2.2'
+}
+
+apply plugin: 'java'
+apply plugin: 'application'
+apply plugin: 'com.github.johnrengelman.shadow'
+
+repositories {
+    mavenCentral()
+}
+
+mainClassName = "kevin_pi.Startup"
+
+dependencies {
+    compile 'com.pi4j:pi4j-gpio-extension:1.0'
+
+    testCompile 'org.jmockit:jmockit:1.18'
+    testCompile 'junit:junit:4.11'
+
+}
+

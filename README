@@ -1,0 +1,20 @@
+Requirements
+
+Java 1.8
+Gradle
+
+
+To Build
+-- 
+gradle shadowjar
+
+-- This will put a jar file in build/libs/test_shift-all.jar
+
+
+SCP this file to your raspberry pi.   Then run
+
+sudo java -jar test_shift-all.jar
+
+
+-- This uses http://pi4j.com/ code and uses its pin layout.    When you startup the program it lists which pins ins using and what the correspond to.
+
